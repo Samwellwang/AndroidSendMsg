@@ -1,12 +1,4 @@
 # SendAndroidMsg
-监听安卓短信,然后转发短信到server酱
-## 使用android studio 开发 
-server酱的talkadmin功能请自行查阅相关说明  
-注意:在MyReceiver.java文件中设置自己的webhook值
-### 更新说明  
-2019-09-24  
-1.增加电池电量监听 低于20和高于95都会通知  
-2.增加日志记录,会显示在主屏上  
-3.修改广播注册方式   
-2019-11-13  
-1.修复主页面数据过多无法滚动的问题
+监听安卓短信,然后转发短信到服务器 
+去掉server酱部分代码
+修改自 [SendAndroidMsg](https://github.com/zhf883680/SendAndroidMsg)
